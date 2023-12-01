@@ -1,6 +1,5 @@
 import pandas as pd
 import matplotlib.pyplot as plt
-import numpy as np
 from pandas_datareader import data as pdr
 import yfinance as ifin
 
@@ -25,7 +24,7 @@ cotacoes_carteira.info()
 
 #   Como Que As Ações Foram Individualmente
 carteira_nom = cotacoes_carteira / cotacoes_carteira.iloc[0]
-# Gráfico
+#   Gráfico
 carteira_nom.plot(figsize=(15, 5))
 plt.legend(loc='upper left')
 plt.show()
@@ -35,7 +34,5 @@ plt.show()
 valor_investido = pd.DataFrame()
 for ativo in carteira['Ativos']:
     valor_investido[ativo] = cotacoes_carteira[ativo] * carteira.loc[carteira['Ativos']==ativo, 'Qtde'].values[0]
-#print(valor_investido)
-
 valor_investido['Total'] = valor_investido.sum(axis=1)
-print(valor_investido.iloc[0])
+print(valor_investido)
