@@ -1,5 +1,5 @@
-# Análise de dados
- análise de Dados [Python]
+# Integração Python para Finanças
+ Integração Python para Finanças [Python]
 
 A análise de dados com Python é uma abordagem poderosa para extrair insights valiosos a partir de conjuntos de dados. Python oferece uma variedade de bibliotecas especializadas, como Pandas, NumPy e Matplotlib, que tornam o processo de análise eficiente e acessível.
 
