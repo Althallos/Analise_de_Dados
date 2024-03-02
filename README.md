@@ -6,10 +6,10 @@ A análise de dados com Python é uma abordagem poderosa para extrair insights v
 Yahoo Finance:
 https://finance.yahoo.com/
 # Bibliotecas Usados:
--Pandas
+- Pandas
 
-Matplotlib
+- Matplotlib
 
-Pandas_datareader
+- Pandas_datareader
 
-Yfinance
+- Yfinance
